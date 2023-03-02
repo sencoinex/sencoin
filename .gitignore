@@ -1,0 +1,31 @@
+# macOS Specific ignores
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# pids
+*.pid
+*.seed
+
+# Vim swap files
+*.swp
+*.swo
+
+# Jetbrains IDE
+.idea/
+
+# VSCode settings
+.vscode/
+
+# direnv
+.envrc
+
+# Rust specific
+**/target
+
+# GDB related
+**/.gdb_history

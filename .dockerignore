@@ -1,0 +1,9 @@
+# list of files to ignore from docker's perspective
+
+# exclude everything
+**/*
+
+# explicitly include stuff we actually need via negation
+!**/Cargo.toml
+!**/Cargo.lock
+!**/*.rs
